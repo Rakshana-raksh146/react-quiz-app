@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import "./assets/style.css";
-import quizService from "./quizService";
-import QuestionBox from "./components/QuestionBox";
-import Result from "./components/Result";
+import "./style.css";
+import "./quizService";
+import "./QuestionBox";
+import "./Result";
 class QuizBee extends Component{
 	state={
 		questionBank: [],
